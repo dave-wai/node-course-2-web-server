@@ -18,9 +18,9 @@ app.get('/', (req,res) => {
   //   ]
   // })
   res.render('home.hbs', {
-    pageTitle: 'Home Page',
+    pageTitle: 'New Home Page',
     currentYear: new Date().getFullYear(),
-    welcomeMessage: 'Welcome Dave!!'
+    welcomeMessage: 'Welcome Dave Wai!!'
   })
 });
 
